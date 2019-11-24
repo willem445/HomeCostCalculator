@@ -123,7 +123,7 @@ class HomeCalculation:
             row.append(house.total_cost)
             table.append(row)
 
-        print(tabulate(table, headers, tablefmt="presto"))
+        print(tabulate(table, headers, tablefmt="github"))
 
     def _calculate_down_payment(self, home_price, percent_down):
         return home_price * percent_down
